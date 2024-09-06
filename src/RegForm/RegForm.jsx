@@ -30,7 +30,7 @@ const RegForm = ({ setIsLogin, regName, setRegName, regPassword1, setRegPassword
     return (
         <div className="form-wrapper">
             <input value={regName} onChange={handleNameChange} placeholder="Введите логин"></input>
-            <input type="password" value={regPassword1} onChange={handlePass1Change} placeholder="Введите пароль пароль"></input>
+            <input type="password" value={regPassword1} onChange={handlePass1Change} placeholder="Введите пароль"></input>
             <input type="password" value={regPassword2} onChange={handlePass2Change} placeholder="Подтвердите пароль"></input>
             <button onClick={reg}>Зарегистрироваться</button>
             {
